@@ -1,0 +1,51 @@
+body {
+  width: 340px;
+  font-family: system-ui, sans-serif;
+  text-align: center;
+  background: #111;
+  color: #eee;
+}
+
+video {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
+.controls {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+
+button {
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+}
+
+input[type="file"] {
+  margin: 6px 0;
+  width: 100%;
+}
+
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+#gallery img,
+#gallery video {
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+}

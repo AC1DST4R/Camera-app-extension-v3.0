@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "AC1D's Camera app",
+  "version": "3.0",
+  "description": "Camera preview, photo capture, video recording, gallery & fullscreen viewer.",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/icon-48.png",
+      "96": "icons/icon-96.png"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "noreply@ac1dst4r.com",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}

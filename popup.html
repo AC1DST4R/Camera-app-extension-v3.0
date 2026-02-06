@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Camera</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+  <video id="preview" autoplay muted playsinline></video>
+
+  <div class="controls">
+    <button id="photo">📸 Photo</button>
+    <button id="record">🎥 Record</button>
+    <button id="clear">🧹 Clear</button>
+  </div>
+
+  <input type="file" id="upload" accept="image/*">
+
+  <h3>Gallery</h3>
+  <div id="gallery"></div>
+
+  <canvas id="canvas" hidden></canvas>
+
+  <script src="popup.js"></script>
+</body>
+</html>
